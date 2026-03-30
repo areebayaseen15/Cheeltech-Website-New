@@ -9,34 +9,34 @@ const ITSolutionFaq = () => {
     const faqData: FAQItemDT[] = [
         {
             id: 'collapseOne1',
-            question: 'What is Agntix?',
-            answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.',
+            question: 'What core web development services does Cheeltech offer?',
+            answer: 'We specialize in custom web development, WordPress, and PHP solutions. Our team is equipped to handle everything from initial strategy and design to full-scale development for diverse projects.',
             isOpen: true
         },
         {
             id: 'collapseTwo2',
-            question: 'Is there a mobile app available?',
-            answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.'
+            question: 'Is there a mobile app available Can you help modernize an existing, outdated website?',
+            answer: 'Yes. We excel at transforming outdated sites into modern, high-performing platforms. We focus on improving site speed, optimizing ad placements, and significantly boosting user engagement.'
         },
         {
             id: 'collapseThree3',
-            question: 'Google mobile can monetize your app?',
-            answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.'
+            question: 'Is Cheeltech a good fit for early-stage startups?',
+            answer: 'Absolutely. We are committed to bringing new ideas to life by offering innovative strategies and sensibly priced services designed to help startups launch and grow effectivel.'
         },
         {
             id: 'collapseFour4',
-            question: 'Do you offer customer support?',
-            answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.'
+            question: 'How does the team handle complex project requirements?',
+            answer: 'We thrive on challenges. Our team works tirelessly, often through long hours, to ensure that bespoke requirements are met with precision, technical finesse, and attention to detail.'
         },
         {
             id: 'collapseFive5',
-            question: 'Do you offer customer support?',
-            answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.'
+            question: 'What is the typical process for a new project?',
+            answer: 'Our journey begins with strategy, followed by custom design and expert development. We align our technical execution with your business vision to deliver a valuable final product.'
         },
         {
             id: 'collapseSix6',
-            question: 'Can I lock my note app?',
-            answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.'
+            question: 'Does Cheeltech work with clients outside of Pakistan?',
+            answer: 'Yes. While we are a leading agency in Pakistan, we serve a global clientele, providing high-quality digital solutions and maintaining effective communication regardless of your location.'
         }
     ];
 

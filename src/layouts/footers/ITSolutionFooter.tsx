@@ -64,7 +64,7 @@ const ITSolutionFooter = () => {
                                 <div className="crp-footer-widget-info mb-20">
                                     <h4 className="crp-footer-widget-title">Location</h4>
                                     <Link className="tp-line-white cream-2" href="https://www.google.com/maps" target="_blank">
-                                        Location: Karachi, Pakistan
+                                   Karachi, Pakistan
                                     </Link>
                                 </div>
                                 <div className="crp-footer-widget-info">
