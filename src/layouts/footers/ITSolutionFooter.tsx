@@ -36,7 +36,7 @@ const ITSolutionFooter = () => {
                                         <li><Link className="tp-line-white cream-2" href="/About">About</Link></li>
                                         <li><Link className="tp-line-white cream-2" href="/Services">Services</Link></li>
                                         <li><Link className="tp-line-white cream-2" href="/Projects">Projects</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="/Blog">Blog </Link></li>
+                                        {/* <li><Link className="tp-line-white cream-2" href="/Blog">Blog </Link></li> */}
                                         <li><Link className="tp-line-white cream-2" href="/Contact">Contact</Link></li>
                                     </ul>
                                 </div>

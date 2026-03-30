@@ -47,17 +47,6 @@ const headerMenuData:MenuItem[] = [
   },
   {
     id: 5,
-    hasDropdown: false,
-    active: true,
-    megaMenu: false,
-    children: true,
-    title: "Blog",
-    pluseIncon: true,
-    link: "/Blog",
-    
-  },
-  {
-    id: 6,
     hasDropdown: true,
     active: true,
     megaMenu: false,
@@ -67,6 +56,17 @@ const headerMenuData:MenuItem[] = [
     link: "/Contact",
     
   }
+    // {
+  //   id: 6,
+  //   hasDropdown: false,
+  //   active: true,
+  //   megaMenu: false,
+  //   children: true,
+  //   title: "Blog",
+  //   pluseIncon: true,
+  //   link: "/Blog",
+    
+  // },
 ];
 export default headerMenuData;
 
