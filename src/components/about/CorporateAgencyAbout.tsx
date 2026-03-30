@@ -25,7 +25,7 @@ const CorporateAgencyAbout = () => {
                         </div>
                         <div className="col-xl-8 col-lg-8">
                             <div className="crp-about-right">
-                                <h4 className="tp-section-title-teko mb-55 tp_fade_anim" data-delay=".3">
+                                <h4 className="tp-section-title-teko mb-30 tp_fade_anim" data-delay=".3">
                                    We support every stage
                                     of your unique  <span>creative journey</span>.
                                     Delivering solutions that align

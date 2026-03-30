@@ -411,3 +411,19 @@ transition: 3s ease-in-out;
 .tp-section-title {
         font-size: 90px !important;
     }
+.mb-30{
+  margin-bottom: 30px !important;
+}    
+.crp-about-text p {
+    width: 80%;
+}
+.crp-hero-title.fs-100 {
+        font-size: 75px;
+    }
+
+@media screen and (max-width:767px){
+  .crp-about-text p {
+    width: 100%;
+}
+}
+  
