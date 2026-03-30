@@ -7,7 +7,7 @@ import Wrapper from "@/layouts/wrapper";
 import type { Metadata } from "next";
 import "swiper/css/bundle";
 import "./globals.scss";
-import ChatWidget from "@/components/chat/chat";
+// import ChatWidget from "@/components/chat/chat";
 
 // Inter font – Supports weights from 100 to 900, including italic styles
 const inter = Inter({

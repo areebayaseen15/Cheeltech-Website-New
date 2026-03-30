@@ -1,5 +1,5 @@
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png"
-import aboutImgOne from "../../../public/content1.jpeg"
+import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg"
 import HomeMainCounter from "../counter/HomeMainCounter";
 import Image from "next/image";
 import React from 'react';
