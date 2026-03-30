@@ -4,7 +4,7 @@ import ITSolutionTestimonial from '@/components/testimonial/ITSolutionTestimonia
 import ITSolutionBenifit from '@/components/benefits/ITSolutionBenifit';
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import { useParallax } from '@/components/shared/Parallax/useParallax';
-import ITSolutionProject from '@/components/project/ITSolutionProject';
+// import ITSolutionProject from '@/components/project/ITSolutionProject';
 import ITSolutionBrandTwo from '@/components/brand/ITSolutionBrandTwo';
 import ITSolutionHero from '@/components/hero-banner/ITSolutionHero';
 import ITSolutionFooter from '@/layouts/footers/ITSolutionFooter';
