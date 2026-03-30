@@ -27,7 +27,7 @@ const CorporateAgencyAbout = () => {
                         <div className="col-xl-8 col-lg-8">
                             <div className="crp-about-right">
                                 <h4 className="tp-section-title-teko mb-55 tp_fade_anim" data-delay=".3">
-                                    {`We're`}We support every stage
+                                   We support every stage
                                     of your unique  <span>your creative journey</span>.
                                     Delivering solutions that align
                                     your vision with expert precision and
