@@ -21,14 +21,14 @@ const ITSolutionHeader = () => {
                     <div className="container container-1630">
                         <div className="tp-header-10-wrapper mt-30">
                             <div className="row align-items-center">
-                                <div className="col-xl-2 col-lg-4 col-md-6 col-5">
+                                <div className="col-xl-4 col-lg-4 col-md-6 col-5">
                                     <div className="tp-header-10-logo">
                                         <Link href="/">
                                             <Image width={150} height={40} src="/assets/img/images/logo32.png"  alt="logo-light" />
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-xl-10 col-lg-8 col-md-6 col-7">
+                                <div className="col-xl-8 col-lg-8 col-md-6 col-7">
                                     <div className="tp-header-10-box d-flex align-items-center justify-content-end justify-content-xl-between">
                                         <div className={`tp-header-menu tp-header-10-menu tp-header-dropdown dropdown-white-bg d-none d-xl-block`}>
                                             <nav className="tp-mobile-menu-active">
