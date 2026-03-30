@@ -1,4 +1,4 @@
-import aboutShape from '../../../public/assets/img/about-us/about-us-4/about-us-4-shape-1.png';
+import shape from '../../../public/assets/img/about-us/about-us-4/about-us-4-shape-1.png';
 import aboutBg from '../../../public/assets/img/about-us/about-us-4/about-us-4-bg.png';
 import { ArrowTwenty, DownArrowTwo } from '@/svg/ArrowIcons';
 import { CareerShapeThree } from '@/svg/HeroShape';
@@ -21,7 +21,7 @@ const BlogListBreadCrumb = ({ containerCls = "container-1230" }) => {
                                 <ArrowTwenty />
                             </span>
 
-                            <h3 className="tp-blog-title tp_fade_anim smooth">Best blog <Image src={aboutShape} alt="about shape" /> <br />
+                            <h3 className="tp-blog-title tp_fade_anim smooth">Best blog <Image src={shape} alt="shape" /> <br />
                                 <Link href="#" onClick={(e) => {
                                     e.preventDefault();
                                     gsap.to(window, { duration: 1, scrollTo: "#down" });
