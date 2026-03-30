@@ -28,20 +28,20 @@ const CorporateAgencyAbout = () => {
                             <div className="crp-about-right">
                                 <h4 className="tp-section-title-teko mb-55 tp_fade_anim" data-delay=".3">
                                    We support every stage
-                                    of your unique  <span>your creative journey</span>.
+                                    of your unique  <span>creative journey</span>.
                                     Delivering solutions that align
                                     your vision with expert precision and
                                     excellence.
                                 </h4>
                                 <div className="crp-about-bottom-wrap d-flex">
-                                    <div className="crp-about-btn-box tp_fade_anim" data-delay=".5" >
+                                    {/* <div className="crp-about-btn-box tp_fade_anim" data-delay=".5" >
                                         <Link className="tp-btn-yellow-green lg" href="/about-us-light">
                                             <span>
                                                 <span className="text-1">About our Agency</span>
                                                 <span className="text-2">About our Agency</span>
                                             </span>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                     <div className="crp-about-text tp_fade_anim" data-delay=".7">
                                         <p>
                                            We build functional web solutions perfect for projects of every size, providing specialized development that fulfills your specific business goals.

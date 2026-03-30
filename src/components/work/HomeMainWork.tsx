@@ -7,8 +7,11 @@ const HomeMainWork = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="tp-work-title-box tp-panel-pin">
-                            <span className="tp-section-subtitle pre mb-20">How we Work</span>
-                            <h2 className="tp-section-title fs-140">Our <br /> design thinking process</h2>
+                            <span className="tp-section-subtitle pre mb-20">The Cheeltech Way</span>
+                            <h2 className="tp-section-title fs-140">Strategic 
+design 
+thinking 
+approach</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">

@@ -4,7 +4,7 @@ import React from "react";
 
 // Components
 import CorporateAgencyBannerTwo from "@/components/banner/CorporateAgencyBannerTwo";
-import CorporateAgencyService from "@/components/service/CorporateAgencyService";
+// import CorporateAgencyService from "@/components/service/CorporateAgencyService";
 import CorporateAgencyAbout from "@/components/about/CorporateAgencyAbout";
 import AboutStartupHero from "@/components/hero-banner/AboutStartupHero";
 import BackToTop from "@/components/shared/BackToTop/BackToTop";
@@ -57,7 +57,7 @@ const AboutStartupMain = () => {
             <CorporateAgencyBannerTwo />
             <CorporateAgencyAbout />
             <ITSolutionBrandThree />
-            <CorporateAgencyService />
+            {/* <CorporateAgencyService /> */}
             <HomeMainWork />
             <AboutBenifit />
           </main>
