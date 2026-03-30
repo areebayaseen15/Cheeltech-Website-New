@@ -49,7 +49,7 @@ const ITSolutionHero = () => {
                                     </Link>
                                 </div>
                                 <div className="tp_fade_anim" data-delay=".7" data-fade-from="top" data-ease="bounce">
-                                    <Link className="tp-btn-black-radius btn-blue-bg btn-border d-inline-flex align-items-center justify-content-between" href="/contact">
+                                    <Link className="tp-btn-black-radius btn-blue-bg btn-border d-inline-flex align-items-center justify-content-between" href="/Contact">
                                         <span>
                                             <span className="text-1">Contact us</span>
                                             <span className="text-2">Contact us</span>

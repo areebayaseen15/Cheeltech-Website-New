@@ -44,7 +44,7 @@ const ITSolutionHeader = () => {
                                                 </button>
                                             </div> */}
                                             <div className="tp-header-11-btn-box d-none d-md-block ml-20">
-                                                <Link className="tp-btn-black-radius blue-bg d-flex align-items-center justify-content-between" href="/contact">
+                                                <Link className="tp-btn-black-radius blue-bg d-flex align-items-center justify-content-between" href="/Contact">
                                                     <span>
                                                         <span className="text-1">Start a project</span>
                                                         <span className="text-2">Start a project</span>
@@ -57,7 +57,7 @@ const ITSolutionHeader = () => {
                                                     </i>
                                                 </Link>
                                             </div>
-                                            <div className="tp-header-10-offcanvas ml-15">
+                                            {/* <div className="tp-header-10-offcanvas ml-15">
                                                 <div className="tp-header-bar">
                                                     <button onClick={() => setOpenOffCanvas(true)} className="tp-offcanvas-open-btn">
                                                         <i></i>
@@ -65,7 +65,7 @@ const ITSolutionHeader = () => {
                                                         <i></i>
                                                     </button>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
