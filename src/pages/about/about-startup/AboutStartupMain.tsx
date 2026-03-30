@@ -4,7 +4,6 @@ import React from "react";
 
 // Components
 import CorporateAgencyBannerTwo from "@/components/banner/CorporateAgencyBannerTwo";
-// import CorporateAgencyService from "@/components/service/CorporateAgencyService";
 import CorporateAgencyAbout from "@/components/about/CorporateAgencyAbout";
 import AboutStartupHero from "@/components/hero-banner/AboutStartupHero";
 import BackToTop from "@/components/shared/BackToTop/BackToTop";
@@ -14,6 +13,7 @@ import ITSolutionHeader from "@/layouts/headers/ITSolutionHeader";
 import HomeMainWork from "@/components/work/HomeMainWork";
 import AboutBenifit from "@/components/benefits/aboutBenefit";
 import ITSolutionBrandThree from "@/components/brand/itsolutionbrandthree";
+
 
 // Hooks
 import { useCursorAndBackground } from "@/hooks/useCursorAndBackground";
@@ -45,7 +45,7 @@ const AboutStartupMain = () => {
         <div id="ball"></div>
       </div>
 
-      {/* Global Components */}
+      {/* Global Component */}
       <BackToTop />
       <SearchArea />
       <ITSolutionHeader />
