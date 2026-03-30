@@ -1,7 +1,6 @@
 import abShape from '../../../public/assets/img/home-09/about/ab-shape-1.png';
 import AnimatedCounter from '../counter/AnimatedCounter';
 import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 
 const CorporateAgencyAbout = () => {
@@ -34,19 +33,19 @@ const CorporateAgencyAbout = () => {
                                     excellence.
                                 </h4>
                                 <div className="crp-about-bottom-wrap d-flex">
-                                    {/* <div className="crp-about-btn-box tp_fade_anim" data-delay=".5" >
-                                        <Link className="tp-btn-yellow-green lg" href="/about-us-light">
-                                            <span>
-                                                <span className="text-1">About our Agency</span>
-                                                <span className="text-2">About our Agency</span>
-                                            </span>
-                                        </Link>
-                                    </div> */}
                                     <div className="crp-about-text tp_fade_anim" data-delay=".7">
                                         <p>
                                            We build functional web solutions perfect for projects of every size, providing specialized development that fulfills your specific business goals.
                                         </p>
                                     </div>
+                                               <div className="crp-about-btn-box tp_fade_anim" data-delay=".5" >
+                                        {/* <Link className="tp-btn-yellow-green lg" href="/about-us-light">
+                                            <span>
+                                                <span className="text-1">About our Agency</span>
+                                                <span className="text-2">About our Agency</span>
+                                            </span>
+                                        </Link> */}
+                                    </div> 
                                 </div>
                             </div>
                         </div>
