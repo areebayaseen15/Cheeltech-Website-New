@@ -78,7 +78,7 @@ const ITSolutionMain = () => {
                         <ITSolutionAbout />
                         <DesignStudioBrand />
                          <ITSolutionTestimonial />
-                        <ITSolutionProject />
+                        {/* <ITSolutionProject /> */}
                         <ITSolutionBrandTwo />
                        
                         {/* <ITSolutionComparison /> */}

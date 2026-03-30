@@ -108,7 +108,7 @@ export default function RootLayout({
           <Wrapper>
             <VideoProvider>
                 {children}
-                <ChatWidget/>
+                {/* <ChatWidget/> */}
             </VideoProvider>
             <GlobalVideoModal />
           </Wrapper>
