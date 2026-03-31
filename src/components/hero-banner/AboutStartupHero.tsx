@@ -36,10 +36,10 @@ const AboutStartupHero = () => {
                         <div className="crp-hero-ptb-3">
                             <div className="crp-hero-title-box mb-35">
                                 <h2 className="crp-hero-title fs-100 tp_fade_anim">
-                                   We align strategy, <br /> design and development <br /> <i className="box d-none d-sm-inline-flex">
+                                 We bridge strategy, <br /> design and development <br /> <i className="box d-none d-sm-inline-flex">
                                         <span className="eye"></span>
                                         <span className="eye"></span>
-                                    </i> to build valuable <br /> products.
+                                    </i> to launch impactful  <br /> products.
                                 </h2>
                             </div>
                         </div>
