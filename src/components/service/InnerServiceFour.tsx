@@ -1,5 +1,5 @@
 import InnerServiceFourItem from './subComponents/InnerServiceFourItem';
-import { ServiceShapeIcon } from '@/svg/ServiesIcons';
+// import { ServiceShapeIcon } from '@/svg/ServiesIcons';
 import servicesData from '@/data/serviceData';
 import React from 'react';
 
