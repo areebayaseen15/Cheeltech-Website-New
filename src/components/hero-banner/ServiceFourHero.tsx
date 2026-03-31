@@ -12,13 +12,14 @@ const ServiceFourHero = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="tp-service-hero-title-box tp_fade_anim z-index-1" data-delay=".3">
-                                <h3 className="tp-service-4-title">We Provide Smart <br /> Solutions.</h3>
+                                <h3 className="tp-service-4-title">Building Scalable Software <br/> Solutions.</h3>
                             </div>
                         </div>
                         <div className="col-lg-5">
                             <div className="tp-service-4-text pt-150 tp_fade_anim z-index-1" data-delay=".5">
-                                <p>We craft digital experiences that engage, <br /> convert, and grow your business. From branding <br />
-                                    to development, we provide end-to-end <br /> solutions tailored to your needs.</p>
+                                <p>We engineer powerful digital platforms that 
+drive engagement and scale your brand. From expert design to technical execution, we deliver 
+premium, professional solutions.</p>
                             </div>
                         </div>
                     </div>

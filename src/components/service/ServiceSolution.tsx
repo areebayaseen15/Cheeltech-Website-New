@@ -32,23 +32,26 @@ const ServiceSolution = () => {
     );
 
     return (
-        <section className="tp-service-4-solution-area pt-135 pb-140">
+        <section className="tp-service-4-solution-area pt-50">
             <div className="container container-1320">
                 <div className="row">
                     <div className="col-lg-5">
-                        <div className="tp-service-4-solution-subtitle pb-50 tp_fade_anim">
+                        <div className="tp-service-4-solution-subtitle tp_fade_anim">
                             <p>Our Smart Solutions</p>
                         </div>
                     </div>
                     <div className="col-lg-7">
                         <div className="tp-service-4-solution-heading pb-100 tp_fade_anim">
                             <h3 className="tp-service-4-solution-title">
-                                From branding to funding, we <br /> provide the tools & strategies <br /> startups need to succeed in a <br /> competitive market.
+                               From design to launch, we 
+deliver the expertise & frameworks 
+founders need to thrive within a 
+crowded industry.
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="tp-service-4-solution-slider">
                         <Swiper
                             className='tp-service-4-solution-active swiper'
@@ -78,7 +81,7 @@ const ServiceSolution = () => {
                         </Swiper>
                     </div>
                     <div className="tp-service-4-dot text-center"></div>
-                </div>
+                </div> */}
             </div>
         </section >
     );

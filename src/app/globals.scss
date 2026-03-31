@@ -70,9 +70,15 @@
 .tp-contact-map-icon span,
 .tp-contact-form-btn button,
 .tp-service-4-process-video .dgm-testimonial-playbtn,
-.agntix-light .crp-about-btn-box .tp-btn-yellow-green{
+.agntix-light .crp-about-btn-box .tp-btn-yellow-green,
+.dgm-service-wrap.dgm-service-white .dgm-service-item:hover .dgm-service-content-right a,
+.dgm-brand-area.fix
+{
    background: blue !important;
     background-color: #5757ff !important;
+}
+.dgm-brand-area.fix{
+  border: none !important;
 }
 .crp-about-exp,
 .it-benifit-icon::after,
@@ -420,6 +426,23 @@ transition: 3s ease-in-out;
 .crp-hero-title.fs-100 {
         font-size: 75px;
     }
+.pb-120{
+  padding-bottom: 120px !important;
+}   
+.mb-100{
+  margin-bottom: 100px !important;
+}
+
+.mt-50{
+  margin-top: 50px !important;
+}
+.dgm-brand-item{
+  border: none !important;
+}
+a.dgm-service-link {
+    display: none;
+}
+
 
 @media screen and (max-width:767px){
   .crp-about-text p {

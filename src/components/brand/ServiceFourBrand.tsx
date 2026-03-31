@@ -21,7 +21,7 @@ const ServiceFourBrand = () => {
     ];
 
     return (
-        <div className="tp-brand-area pt-160 pb-200">
+        <div className="tp-brand-area pt-160 pb-100">
             {/* First Brand Slider */}
             <div className="tp-brand-wrapper blue-bg z-index-1">
                 <Swiper

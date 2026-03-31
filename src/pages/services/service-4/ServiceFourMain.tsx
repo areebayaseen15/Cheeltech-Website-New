@@ -4,17 +4,18 @@ import DigitalMarketingBrandTwo from '@/components/brand/DigitalMarketingBrandTw
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import ServiceFourHero from '@/components/hero-banner/ServiceFourHero';
 import ServiceFourBanner from '@/components/banner/ServiceFourBanner';
-import InnerServiceFour from '@/components/service/InnerServiceFour';
+// import InnerServiceFour from '@/components/service/InnerServiceFour';
 import ServiceSolution from '@/components/service/ServiceSolution';
 import ServiceFourBrand from '@/components/brand/ServiceFourBrand';
-import ServicePricing from '@/components/price-area/ServicePricing';
+// import ServicePricing from '@/components/price-area/ServicePricing';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import useScrollSmooth from '@/hooks/useScrollSmooth';
 import { useGSAP } from '@gsap/react';
 import React from 'react';
 import ITSolutionHeader from '@/layouts/headers/ITSolutionHeader';
 import ITSolutionFooter from '@/layouts/footers/ITSolutionFooter';
-import ServiceFeature from '@/components/features/ServiceFeature';
+import InnerServiceFour from '@/components/service/InnerServiceFour';
+// import ServiceFeature from '@/components/features/ServiceFeature';
 
 const ServiceFourMain = () => {
     // Initialize custom cursor and background styles
@@ -47,15 +48,15 @@ const ServiceFourMain = () => {
                 <div id="smooth-content">
                     <main>
                         <ServiceFourHero />
-                        <ServiceFourBanner />
+                        {/* <ServiceFourBanner /> */}
                         <ServiceSolution />
                         <div className="tp-service-4-padding-area" style={{ backgroundColor: "#F6F8EF" }}>
                             <InnerServiceFour />
                             <ServiceFourBrand />
                         
                               
-                        <ServiceFeature />
-                            <ServicePricing />
+                        {/* <ServiceFeature /> */}
+                            {/* <ServicePricing /> */}
                         </div>
                         {/* <ServiceProcessArea /> */}
                         <DigitalMarketingBrandTwo/>

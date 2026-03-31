@@ -13,7 +13,7 @@ const BreadcurmbTwo = () => {
                         <div className="tp-portfolio-inner-box pb-100">
                             <div className="tp-portfolio-heading pb-30 d-flex p-relative tp_fade_anim">
                                 <span className="tp-section-subtitle pre orange-color tp_fade_anim mr-95">Portfolio {" "} <ArrowTwentyThree /></span>
-                                <h3 className="tp-blog-title fs-100 tp_fade_anim">We Make <Image src={shape} alt="shape" /> <br /> Digital Beautiful</h3>
+                                <h3 className="tp-blog-title fs-100 tp_fade_anim">Building Impactful <Image src={shape} alt="shape" /> <br />Digital Products</h3>
                             </div>
                             <div className="tp-portfolio-inner-tab-wrap">
                                 <nav>

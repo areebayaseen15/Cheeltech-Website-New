@@ -43,7 +43,7 @@ const servicesData: servicesDT[] = [
     {
         id: 1,
          number: '01',
-        title: "Website  Design ",
+        title: "Website Design",
         image: service1,
         description: "We transform complex requirements into clear, functional designs. Our focus is on creating user-friendly interfaces and responsive layouts that enhance the usability and professional look of your digital presence.",
         // categories: ["UX Design", "User Testing", "Motion Design", "Product Prototype"],
