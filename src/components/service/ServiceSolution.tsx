@@ -3,7 +3,7 @@
 // import { ArrowTwentyOne } from '@/svg/ArrowIcons';
 // import { servicesDT } from '@/types/service-d-t';
 // import servicesData from '@/data/serviceData';
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
 
 const ServiceSolution = () => {

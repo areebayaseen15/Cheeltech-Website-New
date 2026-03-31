@@ -3,7 +3,7 @@ import {  fadeAnimation, imageRevealAnimation, panelAnimation, scrollMovingText 
 import DigitalMarketingBrandTwo from '@/components/brand/DigitalMarketingBrandTwo';
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import ServiceFourHero from '@/components/hero-banner/ServiceFourHero';
-import ServiceFourBanner from '@/components/banner/ServiceFourBanner';
+// import ServiceFourBanner from '@/components/banner/ServiceFourBanner';
 // import InnerServiceFour from '@/components/service/InnerServiceFour';
 import ServiceSolution from '@/components/service/ServiceSolution';
 import ServiceFourBrand from '@/components/brand/ServiceFourBrand';
