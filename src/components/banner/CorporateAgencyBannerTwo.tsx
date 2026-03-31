@@ -1,4 +1,4 @@
-import bannerImg from '../../../public/about.jpeg';
+import bannerImg from '../../../public/abt2.jpg.jpeg';
 import Image from 'next/image';
 import React from 'react';
 
