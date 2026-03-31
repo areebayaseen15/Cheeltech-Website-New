@@ -8,9 +8,9 @@ const HomeMainWork = () => {
                     <div className="col-lg-6">
                         <div className="tp-work-title-box tp-panel-pin">
                             <span className="tp-section-subtitle pre mb-20">The Cheeltech Way</span>
-                            <h2 className="tp-section-title fs-140">Strategic 
-design 
-thinking 
+                            <h2 className="tp-section-title fs-140">Strategic<br/>
+design <br/>
+thinking <br/>
 approach</h2>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ approach</h2>
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">User Research</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>We analyse user insights to identify core pain points, providing a precise project scope and realistic initial budget estimates.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -33,7 +33,7 @@ approach</h2>
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Define Problems</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>Our experts evaluate requirements to establish clear technical goals, ensuring every challenge is met with a strategic digital solution.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -43,7 +43,7 @@ approach</h2>
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Design & Prototype</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>We develop intuitive visual concepts and interactive wireframes, allowing you to refine the user journey before the coding begins.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -53,7 +53,7 @@ approach</h2>
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Evaluation & Testing</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>We perform rigorous quality assurance to ensure peak performance, security, and seamless functionality before your project is officially launched.</p>
                                 </div>
                             </div>
                         </div>

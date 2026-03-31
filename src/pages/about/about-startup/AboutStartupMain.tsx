@@ -11,7 +11,7 @@ import SearchArea from "@/components/search-area/SearchArea";
 import ITSolutionFooter from "@/layouts/footers/ITSolutionFooter";
 import ITSolutionHeader from "@/layouts/headers/ITSolutionHeader";
 import HomeMainWork from "@/components/work/HomeMainWork";
-import AboutBenifit from "@/components/benefits/aboutBenefit";
+// import AboutBenifit from "@/components/benefits/aboutBenefit";
 import ITSolutionBrandThree from "@/components/brand/itsolutionbrandthree";
 
 
@@ -59,7 +59,7 @@ const AboutStartupMain = () => {
             <ITSolutionBrandThree />
             {/* <CorporateAgencyService /> */}
             <HomeMainWork />
-            <AboutBenifit />
+            {/* <AboutBenifit /> */}
           </main>
           <ITSolutionFooter />
         </div>

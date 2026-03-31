@@ -425,5 +425,10 @@ transition: 3s ease-in-out;
   .crp-about-text p {
     width: 100%;
 }
+h2.tp-section-title.fs-140.br {
+    display: none !important;
 }
-  
+.tp-section-title {
+        font-size: 45px !important;
+    }
+} 
