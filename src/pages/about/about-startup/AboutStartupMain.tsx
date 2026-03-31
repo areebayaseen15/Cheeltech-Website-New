@@ -20,6 +20,7 @@ import { useCursorAndBackground } from "@/hooks/useCursorAndBackground";
 import useScrollSmooth from "@/hooks/useScrollSmooth";
 import { useGSAP } from "@gsap/react";
 import { fadeAnimation, panelAnimation, eyeAnimation } from "@/hooks/useGsapAnimation";
+import CorporateAgencyBannerTo from "@/components/banner/baner";
 
 const AboutStartupMain = () => {
   // Background and cursor effect
@@ -55,7 +56,10 @@ const AboutStartupMain = () => {
           <main>
             <AboutStartupHero />
             <CorporateAgencyBannerTwo />
+               <AboutStartupHero />
+            <CorporateAgencyBannerTo />
             <CorporateAgencyAbout />
+
             <ITSolutionBrandThree />
             {/* <CorporateAgencyService /> */}
             <HomeMainWork />

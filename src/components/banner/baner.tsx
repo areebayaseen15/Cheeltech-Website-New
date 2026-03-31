@@ -1,8 +1,8 @@
-import bannerImg from '../../../public/about3.jpeg';
+import bannerImg from '../../../public/about4.jpeg';
 import Image from 'next/image';
 import React from 'react';
 
-const CorporateAgencyBannerTwo = () => {
+const CorporateAgencyBannerTo = () => {
     return (
         <div className="crp-banner-area">
             <div className="crp-banner-wrap">
@@ -12,4 +12,4 @@ const CorporateAgencyBannerTwo = () => {
     );
 };
 
-export default CorporateAgencyBannerTwo;
+export default CorporateAgencyBannerTo;
