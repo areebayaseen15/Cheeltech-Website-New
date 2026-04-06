@@ -6,18 +6,15 @@ import React from 'react';
 
 const ServiceFourBrand = () => {
     const brandItems = [
-        "Creative agency",
-        "Website marketing",
-        "Digital marketing",
-        "Product marketing",
-        "Research marketing",
-        "Website marketing",
-        "Lifetime Update",
-        "Brand identity design",
-        "UX/UI design services",
-        "Video production",
-        "Motion graphics",
-        "Copywriting services"
+        "Web development",
+        "Custom Web Apps",
+        "UI/UX Design",
+        "API Integrations",
+        "Secure Maintenance",
+        "E-commerce Solutions",
+        "CMS Development",
+        "Newsletter Development",
+        
     ];
 
     return (
