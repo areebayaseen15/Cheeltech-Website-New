@@ -37,22 +37,20 @@ import portfolioThumb5 from '../../public/assets/img/portfolio/portfolio-col-2/p
 import portfolioThumb6 from '../../public/assets/img/portfolio/portfolio-col-2/portfolio-thumb-6.jpg';
 
 //portfolio col-3 images
-import portfolioThumb7 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-1.jpg';
-import portfolioThumb8 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-2.jpg';
-import portfolioThumb9 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-3.jpg';
-import portfolioThumb10 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-4.jpg';
-import portfolioThumb11 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-5.jpg';
-import portfolioThumb12 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-6.jpg';
-import portfolioThumb13 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-7.jpg';
-import portfolioThumb14 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-8.jpg';
-import portfolioThumb15 from '../../public/assets/img/portfolio/portfolio-col-3/portfolio-thumb-9.jpg';
-
-//portfolio masonry images
-import portfolioThumb16 from '../../public/assets/img/portfolio/portfolio-masonry/portfolio-masonry-1.jpg';
-import portfolioThumb17 from '../../public/assets/img/portfolio/portfolio-masonry/portfolio-masonry-2.jpg';
-import portfolioThumb18 from '../../public/assets/img/portfolio/portfolio-masonry/portfolio-masonry-3.jpg';
-import portfolioThumb19 from '../../public/assets/img/portfolio/portfolio-masonry/portfolio-masonry-4.jpg';
-import portfolioThumb20 from '../../public/assets/img/portfolio/portfolio-masonry/portfolio-masonry-5.jpg';
+import portfolioThumb7 from '../../public/assets/img/portfolio/projects/cxo.jpg';
+import portfolioThumb8 from '../../public/assets/img/portfolio/projects/manzl.jpg';
+import portfolioThumb9 from '../../public/assets/img/portfolio/projects/meta.jpg';
+import portfolioThumb10 from '../../public/assets/img/portfolio/projects/proptech.png';
+import portfolioThumb11 from '../../public/assets/img/portfolio/projects/newsletter1.png';
+import portfolioThumb12 from '../../public/assets/img/portfolio/projects/venture.jpg';
+import portfolioThumb13 from '../../public/assets/img/portfolio/projects/hotel.jpg';
+import portfolioThumb14 from '../../public/assets/img/portfolio/projects/design.jpg';
+import portfolioThumb15 from '../../public/assets/img/portfolio/projects/middleeast.jpg';
+import portfolioThumb16 from '../../public/assets/img/portfolio/projects/kanwal.jpg';
+import portfolioThumb17 from '../../public/assets/img/portfolio/projects/hyk.jpg';
+import portfolioThumb18 from '../../public/assets/img/portfolio/projects/sm4.jpg.jpeg';
+import portfolioThumb19 from '../../public/assets/img/portfolio/projects/sm3.jpg.jpeg';
+import portfolioThumb20 from '../../public/assets/img/portfolio/projects/markable.jpg';
 
 // portfolio-horizontal-showcase image
 import sliderImg1 from '../../public/assets/img/project-slider-img/portfolio-slider-5/port-1.jpg';
@@ -80,7 +78,8 @@ export interface PortfolioDT {
   title: string;
   colClass?: string;
   itemClass?: string;
-  category?: string;
+  stack?:string;
+  category?: string | string[];
   hasSpaceLeft?: boolean;
   link: string;
 };
@@ -295,9 +294,9 @@ const portfolioData: PortfolioDT[] = [
   {
     id: 28,
     image: portfolioThumb1,
-    title: "Olivia Rivers",
-    category: "Branding - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Revitalized Blog Hub",
+    category: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://www.cxoinsightme.com/",
   },
   {
     id: 29,
@@ -340,109 +339,154 @@ const portfolioData: PortfolioDT[] = [
   {
     id: 34,
     image: portfolioThumb7,
-    title: "Olivia Rivers",
-    category: "Branding - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Revitalized Blog Hub",
+    category:["Secure Maintenance","Web Development"],
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://www.cxoinsightme.com/",
   },
   {
     id: 35,
     image: portfolioThumb8,
-    title: "Corporate Branding",
-    category: "Agency - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Transportation Navigation Software Development",
+    category:["API Integrations","UI/UX Design","Web Development"],
+    stack: "ReactJs, NextJs, Tailwindcss, Vercel, FastAPI, Docker",
+    link: "https://mnzil.app/",
   },
   {
     id: 36,
     image: portfolioThumb9,
-    title: "Mobile app",
-    category: "Agency - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Creative business website design service",
+  category:["UI/UX Design","Web Development"],
+    stack: "UX, UI, Graphic Design",
+    link: "https://metakapsule.com/",
   },
   {
     id: 37,
     image: portfolioThumb10,
-    title: "Simple Logistics",
-    category: "Agency - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Empowered Telecom Services Website",
+      category:["UI/UX Design","Web Development"],
+    stack: "UI, UX, WordPress",
+    link: "https://prepaynation.com/",
   },
   {
     id: 38,
     image: portfolioThumb11,
-    title: "Electro Hub",
-    category: "Agency - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Expertly Crafted Weekly Newsletter Design",
+    category:"Newsletter Development",
+    stack: "HTML, CSS, Gmail, Outlook",
+    link: "http://cxoinsightme.com/campaigns/2024/newsletter/index.php/",
   },
   {
     id: 39,
     image: portfolioThumb12,
-    title: "Soko Project",
-    category: "Agency - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Bespoke Email Templates for Events Company",
+    category:"Newsletter Development",
+   stack: "HTML, CSS, Gmail, Outlook",
+    link: "https://ctf-uae.com/Emailer/Ctf-Uae-2023/email-2/index.html",
   },
   {
     id: 40,
     image: portfolioThumb13,
-    title: "Pastel Ladies",
-    category: "Branding - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Dynamic Blog Website for Publishing Company",
+    category:["Web Development" ,"Secure Maintenance"],
+    stack: "HTML, CSS, JavaScript, PHP, CMS",
+    link: "https://hotelandcatering.com/",
   },
   {
     id: 41,
     image: portfolioThumb14,
-    title: "Venus Rebrand",
-    category: "Branding - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Inspiring Microsite for Event Company",
+  category:["Web Development" ,"Secure Maintenance"],
+    stack: "HTML, CSS, JavaScript, PHP",
+    link: "https://design-middleeast.com/awards2023-ksa/",
   },
   {
     id: 42,
     image: portfolioThumb15,
-    title: "Taller Alvarado",
-    category: "Branding - 2025",
-    link: "/portfolio-details-gallery-light",
+    title: "Dynamic Blog Platform",
+   category:["Web Development" ,"Secure Maintenance"],
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://entrepreneuralarabiya.com/",
+  },
+  {
+     id: 43,
+    image: portfolioThumb16,
+    title: "Enhanced Quran Teaching Platform",
+    category:["Web Development" ,"Secure Maintenance"],
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://kanwalquranacademy.com/",
+  },
+
+   {
+     id: 44,
+    image: portfolioThumb17,
+    title: "HYK Steel Construction Website",
+    category:"Web Development",
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://hyksteel.com/",
+  },
+
+   {
+     id: 45,
+    image: portfolioThumb18,
+    title: "Business Today News Website",
+    category:"Web Development",
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://businesstoday.me/",
+  },
+
+   {
+     id: 46,
+    image: portfolioThumb19,
+    title: "Mark Events ",
+    category: ["Web Development", "UI/UX Design"],
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://marks-events.com/",
+  },
+    {
+    id: 47,
+    image: portfolioThumb20,
+     title: "Markable International",
+    category: ["Web Development", "UI/UX Design" , "Secure Maintenance"],
+    stack: "HTML, CSS, JavaScript, WordPress (as CMS)",
+    link: "https://markableintl.com/",
   },
   //portfolio col-3 data end
 
   //portfolio masonry data start
-  {
-    id: 43,
-    image: portfolioThumb16,
-    title: "Olivia Rivers",
-    categories: ["Website", "Services"],
-    colClass: "col-lg-6",
-    link: "/portfolio-details-gallery-light",
-  },
-  {
-    id: 44,
-    image: portfolioThumb17,
-    title: "Isla Monroe",
-    categories: ["Website", "Services"],
-    colClass: "col-lg-6",
-    link: "/portfolio-details-gallery-light",
-  },
-  {
-    id: 45,
-    image: portfolioThumb18,
-    title: "Ella Whitmore",
-    categories: ["Website", "Services"],
-    colClass: "col-lg-12",
-    link: "/portfolio-details-gallery-light",
-  },
-  {
-    id: 46,
-    image: portfolioThumb19,
-    title: "Nora Sinclair",
-    categories: ["Website", "Services"],
-    colClass: "col-lg-6",
-    link: "/portfolio-details-gallery-light",
-  },
-  {
-    id: 47,
-    image: portfolioThumb20,
-    title: "Hazel Quinn",
-    categories: ["Website", "Services"],
-    colClass: "col-lg-6",
-    link: "/portfolio-details-gallery-light",
-  },
+  // {
+  //   id: 43,
+  //   image: portfolioThumb16,
+  //   title: "Olivia Rivers",
+  //   categories: ["Website", "Services"],
+  //   colClass: "col-lg-6",
+  //   link: "/portfolio-details-gallery-light",
+  // },
+  // {
+  //   id: 44,
+  //   image: portfolioThumb17,
+  //   title: "Isla Monroe",
+  //   categories: ["Website", "Services"],
+  //   colClass: "col-lg-6",
+  //   link: "/portfolio-details-gallery-light",
+  // },
+  // {
+  //   id: 45,
+  //   image: portfolioThumb18,
+  //   title: "Ella Whitmore",
+  //   categories: ["Website", "Services"],
+  //   colClass: "col-lg-12",
+  //   link: "/portfolio-details-gallery-light",
+  // },
+  // {
+  //   id: 46,
+  //   image: portfolioThumb19,
+  //   title: "Nora Sinclair",
+  //   categories: ["Website", "Services"],
+  //   colClass: "col-lg-6",
+  //   link: "/portfolio-details-gallery-light",
+  // },
+
   //portfolio masonry data end
 
   // portfolio-horizontal-showcase start

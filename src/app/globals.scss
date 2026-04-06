@@ -455,3 +455,123 @@ h2.tp-section-title.fs-140.br {
         font-size: 45px !important;
     }
 } 
+
+
+.tp-tabs {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  justify-content: center !important;
+}
+
+.tp-tab-btn {
+  padding: 10px 22px !important;
+  border-radius: 999px !important; /* pill shape */
+  border: 1px solid #e5e5e5 !important;
+  background: #fff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #111 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.tp-tab-btn:hover {
+  background: #f5f5f5 !important;
+  transform: translateY(-2px) !important;
+}
+
+.tp-tab-btn.active {
+  background: blue !important;
+  color: #fff !important;
+  border-color: #111 !important;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+
+.tp-portfolio-inner-title
+ {
+    font-size: 22px !important;
+    line-height: 26px;
+}
+
+.tp-tabs {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  justify-content: center !important;
+  padding: 10px !important;
+}
+
+/* Tab Button */
+.tp-tab-btn {
+  padding: 10px 22px !important;
+  border-radius: 999px !important;
+  border: 1px solid #e5e5e5 !important;
+  background: #fff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #111 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  white-space: nowrap; /* text break na ho */
+}
+
+/* Hover */
+.tp-tab-btn:hover {
+  background: #f5f5f5 !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Active */
+.tp-tab-btn.active {
+  background: blue !important;
+  color: #fff !important;
+  border-color: blue !important;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* ========================= */
+/* 📱 Responsive Breakpoints */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .tp-tabs {
+    gap: 10px !important;
+  }
+
+  .tp-tab-btn {
+    padding: 9px 18px !important;
+    font-size: 13px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .tp-tabs {
+    justify-content: flex-start !important;
+    overflow-x: auto;         /* horizontal scroll */
+    flex-wrap: nowrap !important;
+    padding-bottom: 8px !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tp-tab-btn {
+    flex: 0 0 auto;
+    font-size: 12px !important;
+    padding: 8px 16px !important;
+  }
+
+  /* scrollbar hide (optional) */
+  .tp-tabs::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.tp-portfolio-inner-thumb img{
+    width: 100%;
+    transition: 0.9s;
+    border: 2px solid black !important;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7) !important;
+}

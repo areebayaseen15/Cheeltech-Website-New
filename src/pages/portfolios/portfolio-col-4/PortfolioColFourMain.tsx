@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+import React, { useState } from "react";
 import { buttonBounceAnimation, fadeAnimation } from '@/hooks/useGsapAnimation';
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import PortfolioColFour from '@/components/portfolio/PortfolioColFour';
@@ -10,17 +12,17 @@ import ITSolutionFooter from '@/layouts/footers/ITSolutionFooter';
 import ITSolutionHeader from '@/layouts/headers/ITSolutionHeader';
 
 const PortfolioColFourMain = () => {
-    // Initialize custom cursor and optional background styles
-    useCursorAndBackground();
 
-    // Enable smooth scroll animations
+    useCursorAndBackground();
     useScrollSmooth();
+
+    const [activeCategory, setActiveCategory] = useState("All Projects");
 
     useGSAP(() => {
         const timer = setTimeout(() => {
             fadeAnimation();
             buttonBounceAnimation();
-        }, 100)
+        }, 100);
         return () => clearTimeout(timer);
     });
 
@@ -30,20 +32,25 @@ const PortfolioColFourMain = () => {
                 <div id="ball"></div>
             </div>
 
-            {/* Global Components */}
             <BackToTop />
-            {/* <InnerPageHeader /> */}
             <ITSolutionHeader />
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
-                    {/* Main Content Sections */}
                     <main>
-                        <BreadcurmbTwo />
-                        <PortfolioColFour />
+
+                        <BreadcurmbTwo
+                            activeCategory={activeCategory}
+                            setActiveCategory={setActiveCategory}
+                        />
+
+                        <PortfolioColFour
+                            activeCategory={activeCategory}
+                        />
+
                     </main>
-                    {/* <CreativeAgencyFooter bgColor="#1b1b1d" /> */}
-                    <ITSolutionFooter/>
+
+                    <ITSolutionFooter />
                 </div>
             </div>
         </>
