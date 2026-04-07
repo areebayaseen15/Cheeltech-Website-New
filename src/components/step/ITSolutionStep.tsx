@@ -1,5 +1,5 @@
 import aboutShape from '../../../public/assets/img/images/shap-removebg-preview.png';
-import aboutShapeTwo from '../../../public/assets/img/images/step-shape-2.png';
+// import aboutShapeTwo from '../../../public/assets/img/images/step-shape-2.png';
 import aboutShapeThree from '../../../public/assets/img/images/about-shape-1.webp';
 import aboutShapeFour from '../../../public/assets/img/images/about-shape-2.webp';
 import about1 from '../../../public/assets/img/images/about-1.webp';
@@ -48,9 +48,9 @@ const ITSolutionStep = () => {
             <div className="it-step-shape-1">
                 <Image data-speed="1.1" src={aboutShape} alt="about-shape" />
             </div>
-            <div className="it-step-shape-2 d-none d-xxl-block">
+            {/* <div className="it-step-shape-2 d-none d-xxl-block">
                 <Image data-speed="1.1" src={aboutShapeTwo} alt="about-shape" />
-            </div>
+            </div> */}
             <div className="container container-1230">
                 <div className="row justify-content-center">
                     <div className="col-xl-10">

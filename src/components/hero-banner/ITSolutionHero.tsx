@@ -1,8 +1,8 @@
-import heroShapeThree from '../../../public/assets/img/images/hero-shape-2.png';
-import heroShapeFour from '../../../public/assets/img/images/hero-shape-3.png';
-import heroShapeTwo from '../../../public/assets/img/images/hero-shape-4.png';
+ import heroShapeThree from '../../../public/assets/img/images/hero-shape-2.png';
+// import heroShapeFour from '../../../public/assets/img/images/hero-shape-3.png';
+// import heroShapeTwo from '../../../public/assets/img/images/hero-shape-4.png';
 import heroShape from '../../../public/assets/img/home-11/hero/hero-shape-1.png';
-import heroThumb from '../../../public/assets/img/images/hero-thumb.webp';
+// import heroThumb from '../../../public/assets/img/images/hero-thumb.webp';
 import { EmailIconThree, HeroShape } from '@/svg';
 import { ArrowNine } from '@/svg/ArrowIcons';
 import Image from 'next/image';
@@ -16,7 +16,7 @@ const ITSolutionHero = () => {
                 <span className="it-hero-shape-1">
                     <HeroShape />
                 </span>
-                <Image style={{ width: "auto", height: "auto" }} priority className="it-hero-shape-2" src={heroShapeTwo} alt="hero-shape" />
+                {/* <Image style={{ width: "auto", height: "auto" }} priority className="it-hero-shape-2" src={heroShapeTwo} alt="hero-shape" /> */}
             </div>
             <div className="container container-1630">
                 <div className="row align-items-end">
@@ -65,14 +65,14 @@ const ITSolutionHero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6">
+                    {/* <div className="col-xl-6">
                         <div className="it-hero-thumb p-relative mb-35">
                             <div className="tp_fade_anim" data-delay=".5" data-fade-from="right">
                                 <Image style={{ width: "auto", height: "auto" }} data-speed=".9" src={heroThumb} alt="hero-thumb" />
                             </div>
                             <Image data-speed="1.1" className="inner-img tp_fade_anim" data-delay=".7" data-fade-from="top" src={heroShapeFour} alt="hero-shape" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

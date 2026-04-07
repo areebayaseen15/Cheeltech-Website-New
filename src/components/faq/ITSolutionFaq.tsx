@@ -1,4 +1,4 @@
-import faqImg1 from '../../../public/assets/img/images/about-shape-1.png';
+// import faqImg1 from '../../../public/assets/img/images/about-shape-1.png';
 import faqImg2 from '../../../public/assets/img/home-11/faq/faq-2.png';
 import { FAQItemDT } from '@/types/custom-d-t';
 import Image from 'next/image';
@@ -42,9 +42,9 @@ const ITSolutionFaq = () => {
 
     return (
         <div className="app-faq-area p-relative pb-120">
-            <div className="it-faq-shape-1">
+            {/* <div className="it-faq-shape-1">
                 <Image data-speed=".9" src={faqImg1} alt="faq-image" />
-            </div>
+            </div> */}
             <div className="container container-1230">
                 <div className="row">
                     <div className="col-lg-4">

@@ -1,4 +1,4 @@
-import footerShape from '../../../public/assets/img/images/footer-shape2-img.png';
+// import footerShape from '../../../public/assets/img/images/footer-shape2-img.png';
 import logoWhite from '../../../public/assets/img/images/cheeltech_logo_white1.png';
 import { FooterSocialIcons } from './subComponents/FooterSocialIcons';
 import { ArrowSeven } from '@/svg/ArrowIcons';
@@ -11,9 +11,9 @@ const ITSolutionFooter = () => {
         <footer>
             {/* -- footer area start -- */}
             <div className="crp-footer-area it-footer-style crp-footer-bg p-relative pt-120 z-index-1">
-                <div className="it-footer-shape">
+                {/* <div className="it-footer-shape">
                     <Image data-speed="1.1" src={footerShape} alt="footer-shape" />
-                </div>
+                </div> */}
                 <div className="container container-1350">
                     <div className="row">
                         <div className="col-xxl-4 col-xl-4 col-lg-5 col-md-5">
