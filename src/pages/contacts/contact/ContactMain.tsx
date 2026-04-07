@@ -11,11 +11,12 @@ import useScrollSmooth from "@/hooks/useScrollSmooth";
 import ITSolutionFooter from "@/layouts/footers/ITSolutionFooter";
 import ITSolutionHeader from "@/layouts/headers/ITSolutionHeader";
 import ContactUsAbout from "@/components/about/ContactUsAbout";
+import useScrollToHash from "@/hooks/useScrollToHash";
 
 const ContactMain = () => {
   useCursorAndBackground({ bgColor: "#fff" });
   useScrollSmooth();
-
+  useScrollToHash();
   useEffect(() => {
     const timer = setTimeout(() => {
       fadeAnimation();

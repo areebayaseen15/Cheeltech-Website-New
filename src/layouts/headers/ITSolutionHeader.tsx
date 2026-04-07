@@ -1,15 +1,32 @@
+'use client';
+
 import OffCanvasPanel from '@/components/offcanvas/OffCanvasPanel2';
 import useStickyHeader from '@/hooks/useStickyHeader';
 import NavMenus from '../subComponents/NavMenus';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { scrollToSectionById } from '@/hooks/useScrollToSection';
 import { ArrowTen } from '@/svg';
 
 const ITSolutionHeader = () => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
+    const router = useRouter();
     // const { toggleSearch } = useGlobalContext();
     const isSticky = useStickyHeader(20);
+
+    const handleStartProject = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+
+        const currentPath = window.location.pathname;
+
+        if (currentPath === '/Contact' || currentPath === '/contact') {
+            scrollToSectionById('contact-form-section');
+        } else {
+            router.push('/Contact#contact-form-section');
+        }
+    };
 
     return (
         <>
@@ -44,7 +61,11 @@ const ITSolutionHeader = () => {
                                                 </button>
                                             </div> */}
                                             <div className="tp-header-11-btn-box d-none d-md-block ml-20">
-                                                <Link className="tp-btn-black-radius blue-bg d-flex align-items-center justify-content-between" href="/Contact">
+                                                <Link 
+                                                    className="tp-btn-black-radius blue-bg d-flex align-items-center justify-content-between" 
+                                                    href="/Contact#contact-form-section"
+                                                    onClick={handleStartProject}
+                                                >
                                                     <span>
                                                         <span className="text-1">Start a project</span>
                                                         <span className="text-2">Start a project</span>
