@@ -38,28 +38,21 @@ const ITSolutionHeader = () => {
                     <div className="container container-1630">
                         <div className="tp-header-10-wrapper mt-30">
                             <div className="row align-items-center">
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-5">
+                                  <div className="col-xl-3 col-lg-4 col-md-6 col-5">
                                     <div className="tp-header-10-logo">
                                         <Link href="/">
                                             <Image width={150} height={40} src="/assets/img/images/logo32.png"  alt="logo-light" />
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-xl-8 col-lg-8 col-md-6 col-7">
+                                 <div className="col-xl-9 col-lg-8 col-md-6 col-7">
                                     <div className="tp-header-10-box d-flex align-items-center justify-content-end justify-content-xl-between">
                                         <div className={`tp-header-menu tp-header-10-menu tp-header-dropdown dropdown-white-bg d-none d-xl-block`}>
                                             <nav className="tp-mobile-menu-active">
                                                 <NavMenus />
                                             </nav>
                                         </div>
-                                        <div className="tp-header-10-right d-flex align-items-center">
-                                            {/* <div className="tp-header-11-search-box d-none d-md-block">
-                                                <button onClick={toggleSearch} className="tp-header-11-search tp-search-open-btn">
-                                                    <span>
-                                                        <SearchIcon strokeColor="#21212D" width='18' height='18' />
-                                                    </span>
-                                                </button>
-                                            </div> */}
+                                       <div className="tp-header-10-right d-flex align-items-center">
                                             <div className="tp-header-11-btn-box d-none d-md-block ml-20">
                                                 <Link 
                                                     className="tp-btn-black-radius blue-bg d-flex align-items-center justify-content-between" 
@@ -78,7 +71,7 @@ const ITSolutionHeader = () => {
                                                     </i>
                                                 </Link>
                                             </div>
-                                            {/* <div className="tp-header-10-offcanvas ml-15">
+                                            <div className="tp-header-10-offcanvas ml-15">
                                                 <div className="tp-header-bar">
                                                     <button onClick={() => setOpenOffCanvas(true)} className="tp-offcanvas-open-btn">
                                                         <i></i>
@@ -86,7 +79,7 @@ const ITSolutionHeader = () => {
                                                         <i></i>
                                                     </button>
                                                 </div>
-                                            </div> */}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

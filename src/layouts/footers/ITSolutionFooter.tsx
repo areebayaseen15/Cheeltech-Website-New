@@ -70,7 +70,7 @@ const ITSolutionFooter = () => {
                                 <div className="crp-footer-widget-info">
                                     <h4 className="crp-footer-widget-title">Call Us on</h4>
                                     <div className="crp-footer-widget-contact">
-                                        <Link className="tp-line-white cream-2" href="mailto:hello@cheeltech.com"> hello@cheeltech.comm</Link>
+                                        <Link className="tp-line-white cream-2" href="mailto:hello@cheeltech.com">hello@cheeltech.com</Link>
                                     </div>
                                     <div className="crp-footer-widget-contact">
                                         <Link className="tel tp-line-white cream-2 d-inline-block" href="tel:(+1)2345678910">(+92) 342 2766 346</Link>

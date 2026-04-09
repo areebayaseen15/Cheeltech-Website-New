@@ -1,26 +1,13 @@
-import offcanvas1 from "../../../public/assets/img/offcanvas/offcanvas-1.jpg";
-import offcanvas2 from "../../../public/assets/img/offcanvas/offcanvas-2.jpg";
-import offcanvas3 from "../../../public/assets/img/offcanvas/offcanvas-3.jpg";
-import offcanvas4 from "../../../public/assets/img/offcanvas/offcanvas-4.jpg";
-import logo from '../../../public/assets/img/images/logo32.png';
-import logoWhite from '../../../public/assets/img/logo/logo-white.png';
-import PhotoProviderWrapper from '../shared/PhotoProviderWrapper';
-import { CrossIconTwo, DribbleTwo, InstagramSvg } from '@/svg';
+
+import logoBlack from '../../../public/assets/img/images/logo32.png';
+import logoWhite from '../../../public/assets/img/images/logo32.png';
+import { CrossIconTwo} from '@/svg';
 import MainMobileMenu from "../../layouts/subComponents/MainMobileMenu";
-import { BehanceTwoSvg } from "@/svg/social-icons/Behance";
-import { YouTubeSvg } from "@/svg/social-icons/YouTube";
-import { PhotoView } from 'react-photo-view';
-import { ImageDT } from '@/types/custom-d-t';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FiPhone, FiMail } from "react-icons/fi";
 import React from 'react';
 
-const galleryImages: ImageDT[] = [
-    { id: 1, imgSrc: offcanvas1 },
-    { id: 2, imgSrc: offcanvas2 },
-    { id: 3, imgSrc: offcanvas3 },
-    { id: 4, imgSrc: offcanvas4 }
-];
 
 // prop type
 type IProps = {
@@ -37,8 +24,8 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                     <div className="tp-offcanvas-top d-flex align-items-center justify-content-between">
                         <div className="tp-offcanvas-logo">
                             <Link href="/">
-                                <Image className="logo-1" width={150} src={logo} alt="logo-company" />
-                                <Image className="logo-2" width={120} src={logoWhite} alt="logo-white" />
+                                <Image className="logo-1" width={180} src={logoBlack} alt="logo-black" />
+                                <Image className="logo-2" width={180} src={logoWhite} alt="logo-white" />
                             </Link>
                         </div>
                         <div className="tp-offcanvas-close">
@@ -53,51 +40,29 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
                         </div>
                         <div className="tp-offcanvas-menu d-xl-none">
-                            <nav><MainMobileMenu /></nav>
+                            <nav><MainMobileMenu setOpenOffcanvas={setOpenOffcanvas} /></nav>
                         </div>
-                        <div className="tp-offcanvas-gallery d-none d-xl-block">
-                            <div className="row gx-2">
-                                <PhotoProviderWrapper>
-                                    {galleryImages.map((image: ImageDT) => (
-                                        <div className="col-md-3 col-3" key={image.id}>
-                                            <div className="tp-offcanvas-gallery-img fix">
-                                                <PhotoView src={image.imgSrc.src}>
-                                                    <Image style={{ width: "100%", height: "auto" }} src={image.imgSrc} alt={`Gallery image${image.id}`} />
-                                                </PhotoView>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </PhotoProviderWrapper>
-                            </div>
+                        
                         </div>
                         <div className="tp-offcanvas-contact">
                             <h3 className="tp-offcanvas-title sm">Information</h3>
-                            <ul>
-                                <li><Link href="tel:1245654">+ 4 20 7700 1007</Link></li>
-                                <li><Link href="mailto:hello@diego.com">hello@diego.com</Link></li>
-                                <li><Link href="#">Avenue de Roma 158b, Lisboa</Link></li>
-                            </ul>
+                           <ul className="contact-list">
+  <li>
+    <Link href="tel:+923422766346">
+      <FiPhone /> +92 342 2766346
+    </Link>
+  </li>
+
+  <li>
+    <Link href="mailto:awais@signsolution.xyz">
+      <FiMail />hello@cheeltech.com
+    </Link>
+  </li>
+</ul>
                         </div>
-                        <div className="tp-offcanvas-social">
-                            <h3 className="tp-offcanvas-title sm">Follow Us</h3>
-                            <ul>
-                                <li>
-                                    <Link href="#"><InstagramSvg /></Link>
-                                </li>
-                                <li>
-                                    <Link href="#"> <DribbleTwo /></Link>
-                                </li>
-                                <li>
-                                    <Link href="#"><BehanceTwoSvg /></Link>
-                                </li>
-                                <li>
-                                    <Link href="#"><YouTubeSvg /></Link>
-                                </li>
-                            </ul>
-                        </div>
+                      
                     </div>
                 </div>
-            </div>
 
             <div onClick={() => setOpenOffcanvas(false)}
                 className={`body-overlay ${openOffcanvas ? "opened" : ""}`}
