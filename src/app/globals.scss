@@ -753,22 +753,36 @@ h2.tp-section-title.fs-140.br {
       width: 150px !important;
       height: 80px !important;
     }
-  .tp-tabs {
+        .tp-blog-title {
+        font-size: 45px !important;
+    }
+   .tp-tabs {
+    flex-wrap: wrap !important;   
     justify-content: flex-start !important;
-    overflow-x: auto;         
-    flex-wrap: nowrap !important;
-    padding-bottom: 8px !important;
-    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px !important;
   }
 
+ 
   .tp-tab-btn {
-    flex: 0 0 auto;
+    flex: 0 0 auto !important; 
     font-size: 12px !important;
     padding: 8px 16px !important;
   }
 
-  /* scrollbar hide (optional) */
-  .tp-tabs::-webkit-scrollbar {
-    display: none;
-  }
+ .tp-career-title {
+        font-size: 45px !important;
+    } 
+
+.crp-hero-funfact-bg {
+    padding: 40px 25px;    
+}
+.tp-section-title {
+        font-size: 38px !important;
+    }
+ .tp-contact-form-ptb {
+        padding-bottom: 50px !important;
+    }   
+.cn-contactform-support-text span {
+        font-size: 30px !important;
+    }    
 }
