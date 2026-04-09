@@ -2,7 +2,6 @@
 
 import mobileMenuData from '@/data/header-menu/mobileMenuData';
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 type Props = {

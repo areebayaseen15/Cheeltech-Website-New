@@ -1,4 +1,3 @@
-import menuThumb from "../../../public/assets/img/menu/menu-1.png";
 import { StaticImageData } from "next/image";
 
 // Define types for our menu data
