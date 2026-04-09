@@ -564,143 +564,181 @@ h2.tp-section-title.fs-140.br {
   }
 }
 
-/* Mobile */
-@media (max-width: 480px) {
-      .it-hero-ptb {
-        padding-top: 180px !important;
-        padding-bottom: 150px !important;
-    }
-    .it-hero-title {
-        font-size: 44px !important;
-    }
-    .tp-btn-black-radius.btn-blue-bg {
-    padding: 5px 18px !important;
-    }
-    .it-step-bg
- {
-    margin-top: -50px;
-}
-    .tp-section-title-platform {
-        font-size: 40px;
-    }
-    .it-step-title-box p {
-    font-size: 16px !important;
-    }
 
-    .it-faq-wrap {
-    margin-left: 10px;
-}
-.it-faq-wrap .accordion-items {
-    padding-left: 30px;
-}
-    .it-faq-wrap .accordion-buttons span {
-        font-size: 28px !important;
-        line-height: 1;
-    }
- .it-faq-wrap .accordion-body p {
-    font-weight: 500;
-    font-size: 16px;
- }
- .creative-brand-area {
-        padding-bottom: 50px;
-        padding-top: 50px;
-    }
- .creative-brand-top-text{
-  font-size: 28px !important;
- }   
- .agntix-light .it-brand-style .creative-brand-item img {
-    width: 150px;
-    height: 100px;
-}   
-    .tp-about-text p {
-        font-size: 22px !important;
-        margin-right: 0px !important;
-        margin-bottom: 30px !important;
-    }
-
-.tp_text_anim p{
-  font-size: 16px;
-}
-.tp-about-funcact-item span{
-  font-size: 50px;
-  margin-bottom: 10px;
-}
-.tp-about-area{
-  padding-bottom: 80px !important;
-}
-.studio-service-area {
-    padding-top: 80px !important;
-}
-.tp-section-title-clash {
-        font-size: 40px;
-}
-.mb-105 {
-    margin-bottom: 50px !important;
-}
-.studio-service-item-wrap .tp-award-text {
-    font-size: 26px;
-}
-.agntix-light .studio-service-item-wrap .tp-award-year,
-.studio-service-item-wrap .tp-award-box-right {
+button.tp-offcanvas-open-btn {
     display: none !important;
 }
-.studio-service-item-wrap .tp-award-text{
-  font-size: 21px !important;
+@media  (max-width:1199px) {
+  button.tp-offcanvas-open-btn {
+    display: block !important;
 }
-.it-about-ptb {
-        padding-top: 0px !important;
-        padding-bottom: 0;
-    }
-.tp-section-title-platform.fs-84 {
-        font-size: 45px;
-    }
-    .it-about-title-box {
-        margin-bottom: 0px;
-    }
-    .it-about-thumb-inner.mb-50
- {
-    margin-top: 30px !important;
 }
-.align-items-end {
-    display: none;
-    align-items: flex-end !important;
-}
-    .des-brand-area {
-        margin-top: 80px;
-        padding-bottom:0px !important;
-    }
+/* ========================= */
+/* 📱 MOBILE FIXED VERSION */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  /* HERO SECTION FIX */
+  .it-hero-ptb {
+    padding-top: 150px !important;   
+    padding-bottom: 120px !important;
+  }
+
+  .it-hero-title {
+    font-size: 38px !important;
+  }
+
+  .tp-btn-black-radius.btn-blue-bg {
+    padding: 6px 16px !important;
+  }
+
+
+  .it-step-bg {
+    margin-top: 0px !important;   
+    padding-top: 30px !important; 
+  }
+
+  /* SECTION TITLES */
   .tp-section-title-platform {
-        font-size: 34px;
-    }
-    .it-testimonial-content p {
-    font-size: 18px;
-    }  
+    font-size: 32px !important;
+  }
 
-    .it-testimonial-title-box.text-center.mb-50 {
-    margin-bottom: 10px !important;
-}
-
-    .tp-brand-area {
-        padding-top: 50px !important;
-        padding-bottom: 50px !important;
-    }
-  .it-benifit-area.p-relative.pt-120.pb-120{
-    padding-bottom: 80px !important;
-  }  
   .tp-section-title-platform.fs-84 {
-        font-size: 36px;
-    }
-    .tp-section-title-platform.platform-text-black.fs-84.tp-split-text.tp-split-right{
-      margin-bottom: 10px !important;
-    }
-    .pb-120 {
-    padding-bottom: 80px !important;
+    font-size: 34px !important;
+  }
+
+  .tp-section-title {
+    font-size: 32px !important;
+  }
+
+  .tp-section-title-clash {
+    font-size: 32px !important;
+  }
+
+  /* TEXT */
+  .it-step-title-box p {
+    font-size: 15px !important;
+  }
+
+  .tp_text_anim p {
+    font-size: 15px;
+  }
+
+  /* FAQ */
+  .it-faq-wrap {
+    margin-left: 0 !important;
+  }
+
+  .it-faq-wrap .accordion-items {
+    padding-left: 15px;
+  }
+
+  .it-faq-wrap .accordion-buttons span {
+    font-size: 24px !important;
+  }
+
+  .it-faq-wrap .accordion-body p {
+    font-size: 15px;
+  }
+  .it-about-thumb {
+    display: none;
 }
-.pt-120 {
-    padding-top: 80px !important;
-}
-.crp-footer-widget.crp-footer-col-1{
-  margin-bottom: 50px !important;
+
+  /* BRAND */
+  .creative-brand-area {
+    padding: 40px 0 !important;
+  }
+
+  .creative-brand-top-text {
+    font-size: 24px !important;
+  }
+
+  .agntix-light .it-brand-style .creative-brand-item img {
+    width: 120px;
+    height: 80px;
+  }
+
+  /* ABOUT */
+  .tp-about-text p {
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .tp-about-funcact-item span {
+    font-size: 40px;
+  }
+
+  .tp-about-area {
+    padding-bottom: 60px !important;
+  }
+
+  .it-about-ptb {
+    padding-top: 0 !important;
+  }
+
+  /* SERVICES */
+  .studio-service-area {
+    padding-top: 60px !important;
+  }
+
+  .studio-service-item-wrap .tp-award-text {
+    font-size: 18px !important;
+  }
+
+  .studio-service-item-wrap .tp-award-year,
+  .studio-service-item-wrap .tp-award-box-right {
+    display: none !important;
+  }
+
+  /* SPACING */
+  .mb-105 {
+    margin-bottom: 40px !important;
+  }
+
+  .pt-120 {
+    padding-top: 60px !important;
+  }
+
+  .pb-120 {
+    padding-bottom: 60px !important;
+  }
+
+  /* TESTIMONIAL */
+  .it-testimonial-content p {
+    font-size: 16px;
+  }
+
+  .it-testimonial-title-box.text-center.mb-50 {
+    margin-bottom: 10px !important;
+  }
+
+  /* TABS */
+  .tp-tabs {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+    padding-bottom: 6px !important;
+    gap: 10px !important;
+  }
+
+  .tp-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tp-tab-btn {
+    flex: 0 0 auto !important;
+    font-size: 12px !important;
+    padding: 8px 14px !important;
+  }
+
+  /* FOOTER */
+  .crp-footer-big-text {
+    font-size: 36px;
+    padding: 20px !important;
+  }
+.crp-footer-widget {
+    margin-bottom: 30px;
 }
 .crp-footer-big-text i svg {
         display: none;
@@ -715,74 +753,13 @@ h2.tp-section-title.fs-140.br {
     padding-top: 17px;
     padding-bottom:0px !important;
 }
-.crp-footer-widget.crp-footer-col-3.mb-90.tp_fade_anim{
-  margin-bottom: 35px !important;
-}
-.crp-hero-title {
-    font-size: 45px !important;
-}
-.crp-banner-wrap img {
-        margin-top: 10px !important;
-    }
-  .tp-section-title-teko {
-        font-size: 34px;
-    }  
-    .crp-about-exp {
-      margin:20px auto;
-    }
-        .crp-about-area {
-        padding-top: 80px !important;
-        padding-bottom: 10px !important;
-    }
-    .creative-brand-area.it-brand-style{
-      padding-bottom: 20px !important;
-        padding-top: 20px !important;
-    }
-
-    .tp-service-4-solution-area {
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
-        .dgm-service-radius {
-        padding-top: 0px !important;
-    }
-        .dgm-service-item {
-        padding: 20px 10px !important;
-    }
-    .dgm-brand-item img{
-      width: 150px !important;
-      height: 80px !important;
-    }
-        .tp-blog-title {
-        font-size: 45px !important;
-    }
-   .tp-tabs {
-    flex-wrap: wrap !important;   
-    justify-content: flex-start !important;
-    padding-bottom: 6px !important;
+  /* CONTACT */
+  .tp-contact-form-ptb {
+    padding-bottom: 40px !important;
   }
 
- 
-  .tp-tab-btn {
-    flex: 0 0 auto !important; 
-    font-size: 12px !important;
-    padding: 8px 16px !important;
+  .cn-contactform-support-text span {
+    font-size: 24px !important;
   }
 
- .tp-career-title {
-        font-size: 45px !important;
-    } 
-
-.crp-hero-funfact-bg {
-    padding: 40px 25px;    
-}
-.tp-section-title {
-        font-size: 38px !important;
-    }
- .tp-contact-form-ptb {
-        padding-bottom: 50px !important;
-    }   
-.cn-contactform-support-text span {
-        font-size: 30px !important;
-    }    
 }
