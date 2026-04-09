@@ -53,7 +53,9 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
                         </div>
                         <div className="tp-offcanvas-menu d-xl-none">
-                            <nav><MainMobileMenu /></nav>
+                            <nav><MainMobileMenu setOpenOffcanvas={function (value: React.SetStateAction<boolean>): void {
+                                throw new Error("Function not implemented.");
+                            } } /></nav>
                         </div>
                         <div className="tp-offcanvas-gallery d-none d-xl-block">
                             <div className="row gx-2">
