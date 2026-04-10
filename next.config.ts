@@ -2,6 +2,9 @@ import path from "path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // ✅ ADD THIS LINE
+  output: "export",
+
   // ✅ Webpack alias
   webpack: (config) => {
     config.resolve.alias = {
@@ -12,20 +15,21 @@ const nextConfig: NextConfig = {
   },
 
   // ✅ Images remote patterns
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cheeltech.com",
-        pathname: "/**",
-      },
-    ],
-  },
+ images: {
+  unoptimized: true, // 👈 ye add karna zaroori hai
+  remotePatterns: [
+    {
+      protocol: "https",
+      hostname: "cheeltech.com",
+      pathname: "/**",
+    },
+  ],
+},
 
   // ✅ Turbopack fix for Next.js 16+
   turbopack: {},
 
-  reactStrictMode: true, // optional but recommended
+  reactStrictMode: true,
 };
 
 export default nextConfig;
